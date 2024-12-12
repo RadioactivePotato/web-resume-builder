@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Resume Builder</h1>
+    <form id="resumeForm">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+            <label for="aboutMe">About Me:</label>
+            <input type="text" id="aboutMe" name="aboutMe" required>
+        </div>
+        <div class="form-group">
+            <label for="skills">Skills:</label>
+            <input type="text" id="skills" name="skills" required>
+        </div>
+        <div class="form-group">
+            <label for="education">Education:</label>
+            <input type="text" id="education" name="education" required>
+        </div>
+        <div class="form-group">
+            <label for="website">Website:</label>
+            <input type="text" id="website" name="website">
+        </div>
+        <div class="form-group">
+            <label for="workHistory">Work History:</label>
+            <input type="text" id="workHistory" name="workHistory">
+        </div>
+        <div class="form-group">
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" required>
+        </div>
+        <button type="submit">Create Resume!</button>
+    </form>
+    <div id="resumePreview"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

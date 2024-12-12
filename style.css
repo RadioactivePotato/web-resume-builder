@@ -1,0 +1,78 @@
+:root {
+    /* https://www.nordtheme.com */
+    --nord0: #2e3440;
+    --nord1: #3b4251;
+    --nord2: #434c5e;
+    --nord3: #4c566a;
+    --nord4: #d8dee9;
+    --nord5: #e5e9f0;
+    --nord6: #eceff4;
+    --nord7: #8fbcbb;
+    --nord8: #81a1c1;
+    --nord9: #5e81ac;
+    --nord10: #bf616a;
+    --nord11: #d08770;
+    --nord12: #ebcb8b;
+    --nord13: #a3be8c;
+    --nord14: #8fbcbb;
+}
+
+body {
+    background-color: var(--nord1);
+    color: var(--nord4);
+    font-family: sans-serif;
+    /* cursor: crosshair; */ /* sniper mode */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--nord2);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: var(--nord7);
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    color: var(--nord4);
+}
+
+input,
+textarea {
+    width: 97%;
+    padding: 10px;
+    border: 1px solid var(--nord3);
+    border-radius: 3px;
+    background-color: var(--nord2);
+    color: var(--nord4);
+}
+
+button {
+    background-color: var(--nord9);
+    color: var(--nord4);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#resumePreview {
+    background-color: var(--nord2);
+    border-radius: 10px;
+    /* height: 500px; */
+    padding: 20px;
+    border: 2px solid var(--nord3);
+    background-color: var(--nord3)
+}
