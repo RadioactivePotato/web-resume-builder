@@ -8,7 +8,7 @@ Made with 100% HTML, CSS, and JavaScript
 
 ## How to use
 
-You can clone these repo and open the `ìndex.html` file in your browser to use it locally
+You can clone the repo and open the `ìndex.html` file in your browser to use it locally
 
 or you can use the demo linked below.
 
